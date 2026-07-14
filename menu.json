@@ -1,0 +1,275 @@
+[
+  {
+    "id": 11,
+    "foodItem": "Buffalo Bill's Wings",
+    "description": "Crispy chicken wings tossed in a fiery buffalo sauce, served with rench or blue cheese dip.",
+    "price": 6.99,
+    "kcal": "450 kcal (6 pcs)"
+  },
+  {
+    "id": 12,
+    "foodItem": "Smoky Maple Glazed Wings",
+    "description": "Sweet and smoky wings coated in our maple BBQ glaze. Finger-licking good!",
+    "price": 7.49,
+    "kcal": "520 kcal (6 pcs)"
+  },
+  {
+    "id": 13,
+    "foodItem": "Garlic Parmesan Wings",
+    "description": "Wings smothered in a buttery garlic sauce and topped with grated parmesan.",
+    "price": 7.49,
+    "kcal": "500 kcal (6 pcs)"
+  },
+  {
+    "id": 14,
+    "foodItem": "Maple Sriracha Inferno Wings",
+    "description": "A fiery mix of sweet maple syrup and sriracha heat. Guaranteed to leave a spicy kick!",
+    "price": 7.49,
+    "kcal": "480 kcal (6 pcs)"
+  },
+  {
+    "id": 15,
+    "foodItem": "Campfire Honey Mustard Wings",
+    "description": "Crispy wings coated in sweet honey mustard glaze with a smoky twist.",
+    "price": 7.49,
+    "kcal": "450 kcal (6 pcs)"
+  },
+  {
+    "id": 16,
+    "foodItem": "Beaver Spice Dry Rub Wings",
+    "description": "Bold and smoky dry rub packed with paprika, garlic, and secret spices.",
+    "price": 6.99,
+    "kcal": "420 kcal (6 pcs)"
+  },
+  {
+    "id": 17,
+    "foodItem": "Pineapple Teriyaki Wings",
+    "description": "Sweet pineapple teriyaki glaze with a tropical twist.",
+    "price": "£7.49 (6 pcs)",
+    "kcal": "470 kcal (6 pcs)"
+  },
+  {
+    "id": 21,
+    "foodItem": "Buffalo Ranch Wrap",
+    "description": "Crispy chicken, lettuce, tomato, buffalo sauce, and ranch dressing wrapped in a soft tortilla.",
+    "price": 7.49,
+    "kcal": "700 kcal"
+  },
+  {
+    "id": 22,
+    "foodItem": "Maple BBQ Chicken Wrap",
+    "description": "Grilled chicken, lettuce, shredded cheese, and maple BBQ sauce wrapped snugly.",
+    "price": 7.99,
+    "kcal": "750 kcal"
+  },
+  {
+    "id": 23,
+    "foodItem": "Spicy Beaver Wrap",
+    "description": "Grilled chicken, spicy beaver sauce, lettuce, and crunchy jalapeños in a soft tortilla.",
+    "price": 7.49,
+    "kcal": "710 kcal"
+  },
+  {
+    "id": 24,
+    "foodItem": "Pineapple BBQ Pork Wrap",
+    "description": "Slow-cooked BBQ pork, grilled pineapple, slaw, and tangy BBQ sauce.",
+    "price": 7.99,
+    "kcal": "780 kcal"
+  },
+  {
+    "id": 25,
+    "foodItem": "Rancher's Veggie Wrap",
+    "description": "Grilled mushrooms, zucchini, peppers, mixed greens, and ranch dressing wrapped up fresh.",
+    "price": 6.99,
+    "kcal": "620 kcal"
+  },
+  {
+    "id": 26,
+    "foodItem": "Lumberjack Steak Wrap",
+    "description": "Tender steak strips, sautéed onions, peppers, lettuce, and garlic mayo in a toasted tortilla.",
+    "price": 8.99,
+    "kcal": "800 kcal"
+  },
+  {
+    "id": 27,
+    "foodItem": "Sweet Chili Veggie Wrap",
+    "description": "Grilled veggies, mixed greens, and sweet chili sauce in a whole wheat tortilla.",
+    "price": 6.99,
+    "kcal": "600 kcal"
+  },
+  {
+    "id": 31,
+    "foodItem": "Soft Drinks",
+    "description": ["Coca-Cola", "Diet Coke", "Sprite", "Fanta", "Dr Pepper"],
+    "price": 1.99,
+    "kcal": "140 kcal"
+  },
+  {
+    "id": 32,
+    "foodItem": "Alcoholic Drinks",
+    "description": ["Corona", "Budweiser", "Beaver Brew Lager", "Maple Ale"],
+    "price": 4.99,
+    "kcal": "220 kcal"
+  },
+  {
+    "id": 33,
+    "foodItem": "Chocolate Beaver Shake",
+    "description": "Rich chocolate ice cream blended with chocolate syrup and whipped cream.",
+    "price": 4.49,
+    "kcal": "750 kcal"
+  },
+  {
+    "id": 34,
+    "foodItem": "Vanilla Lodge Shake",
+    "description": "Classic vanilla shake topped with whipped cream and a cherry.",
+    "price": 4.49,
+    "kcal": "700 kcal"
+  },
+  {
+    "id": 35,
+    "foodItem": "Maple Madness Shake",
+    "description": "A creamy maple-flavored shake with whipped cream and crunchy pecans.",
+    "price": 4.99,
+    "kcal": "800 kcal"
+  },
+  {
+    "id": 41,
+    "foodItem": "Lumberjack Deluxe",
+    "description": "A double beef patty stacked high with cheddar cheese, crispy bacon, caramelized onions, lettuce, tomato, and our signature smoky maple BBQ sauce.",
+    "price": 9.99,
+    "kcal": "1,250 kcal"
+  },
+  {
+    "id": 42,
+    "foodItem": "Timber Trail Classic",
+    "description": "A juicy beef patty with lettuce, tomato, pickles, onion, and Beaver Bill's secret sauce. A true classic!",
+    "price": 7.99,
+    "kcal": "850 kcal"
+  },
+  {
+    "id": 43,
+    "foodItem": "Maple Leaf Chicken Burger",
+    "description": "Crispy buttermilk chicken breast topped with creamy coleslaw, lettuce, and sweet maple aioli.",
+    "price": 8.49,
+    "kcal": "980 kcal"
+  },
+  {
+    "id": 44,
+    "foodItem": "Veggie Voyage",
+    "description": "A grilled veggie patty served with avocado, grilled mushrooms, lettuce, tomato, and zesty garlic aioli.",
+    "price": 7.49,
+    "kcal": "720 kcal"
+  },
+  {
+    "id": 45,
+    "foodItem": "The Grizzly Beast",
+    "description": "Triple beef patties, triple cheese, crispy bacon, onion rings, and smothered in smoky chipotle BBQ sauce. For the hungriest of hunters!",
+    "price": 12.99,
+    "kcal": "1,750 kcal"
+  },
+  {
+    "id": 46,
+    "foodItem": "Beaver's Blue Banger",
+    "description": "Juicy beef patty topped with tangy blue cheese, crispy lettuce, caramelized onions, and garlic mayo.",
+    "price": 8.99,
+    "kcal": "950 kcal"
+  },
+  {
+    "id": 47,
+    "foodItem": "The Maple Moose",
+    "description": "Sweet and savory perfection with a beef patty, maple-glazed bacon, sharp cheddar, lettuce, and sweet onion relish.",
+    "price": 9.49,
+    "kcal": "1,050 kcal"
+  },
+  {
+    "id": 48,
+    "foodItem": "Smoky Campfire Chicken Burger",
+    "description": "Grilled chicken breast topped with smoky BBQ sauce, melted gouda, roasted red peppers, and lettuce.",
+    "price": 8.99,
+    "kcal": "920 kcal"
+  },
+  {
+    "id": 51,
+    "foodItem": "Beaver Fries",
+    "description": "Classic golden fries seasoned to perfection.",
+    "price": 2.99,
+    "kcal": "300 kcal"
+  },
+  {
+    "id": 52,
+    "foodItem": "Poutine Perfection",
+    "description": "Fries smothered in cheese curds and rich beef gravy.",
+    "price": 4.99,
+    "kcal": "600 kcal"
+  },
+  {
+    "id": 53,
+    "foodItem": "Onion Lodge Rings",
+    "description": "Crispy beer-battered onion rings served with zesty dipping sauce.",
+    "price": 3.99,
+    "kcal": "450 kcal"
+  },
+  {
+    "id": 54,
+    "foodItem": "Cheesy Beaver Bites",
+    "description": "Breaded and fried gooey cheese balls.",
+    "price": 4.49,
+    "kcal": "500 kcal"
+  },
+  {
+    "id": 55,
+    "foodItem": "Maple Bacon Loaded Fries",
+    "description": "Crispy fries loaded with cheese, bacon bits, and maple syrup drizzle.",
+    "price": 5.99,
+    "kcal": "680 kcal"
+  },
+  {
+    "id": 56,
+    "foodItem": "Sweet Potato Beaver Fries",
+    "description": "Sweet potato fries served with cinnamon-maple dusting.",
+    "price": 3.99,
+    "kcal": "350 kcal"
+  },
+  {
+    "id": 57,
+    "foodItem": "Jalapeño Poppers",
+    "description": "Breaded jalapeños stuffed with cream cheese and fried golden brown.",
+    "price": 4.99,
+    "kcal-side": "350 kcal"
+  },
+  {
+    "id": 58,
+    "foodItem": "Beaver Lodge Mac Bites",
+    "description": "Creamy mac and cheese balls, breaded and fried until crispy.",
+    "price": 5.49,
+    "kcal": "550 kcal"
+  },
+  {
+    "id": 61,
+    "foodItem": "Maple Chipotle Kick",
+    "description": "Sweet, smoky, and spicy with a kick of chipotle peppers.",
+    "price": 1.49,
+    "kcal": "120 kcal"
+  },
+  {
+    "id": 62,
+    "foodItem": "Garlic Maple Aioli",
+    "description": "Creamy aioli with a hint of roasted garlic and maple.",
+    "price": 1.49,
+    "kcal": "150 kcal"
+  },
+  {
+    "id": 63,
+    "foodItem": "Cranberry BBQ Bliss",
+    "description": "A unique twist with tangy cranberry and smoky BBQ flavors.",
+    "price": 1.49,
+    "kcal": "110 kcal"
+  },
+  {
+    "id": 64,
+    "foodItem": "Beaver Inferno Sauce",
+    "description": "For the brave! Extra spicy chili sauce with a touch of sweetness.",
+    "price": 1.49,
+    "kcal": "100 kcal"
+  }
+]

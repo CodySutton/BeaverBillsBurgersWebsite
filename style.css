@@ -1,0 +1,897 @@
+body {
+  background-color: #fef5ef;
+}
+
+p {
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+
+/*////////// Portfolio //////////*/
+
+.portfolio-warning {
+  background-color: #4e374f;
+  overflow: hidden; /* Hide the overflow */
+  white-space: nowrap; /* Prevent text from wrapping */
+  position: relative; /* Position relative for absolute children */
+}
+
+.warning {
+  background-color: #4e374f;
+  color: #fef5ef;
+  font-family: 'Suez One', serif;
+  font-size: 2rem;
+  display: inline-block; /* Inline block to allow side-by-side positioning */
+  padding: 0.2rem 0;
+  white-space: nowrap; /* Prevent text from wrapping */
+  box-sizing: border-box;
+  animation: scroll-left 15s linear infinite; /* Apply the animation */
+  margin: 0.2rem 0;
+}
+
+.warning:nth-child(2) {
+  left: 100%; /* Position the second element right after the first one */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0); /* Start from the initial position */
+  }
+  100% {
+    transform: translateX(-100%); /* Move to the left by 100% of its width */
+  }
+}
+
+/*////////// Heading //////////*/
+
+@media (max-width: 1400px) {
+  .navbar-expand > .container-fluid > .collapse {
+    display: none !important;
+  }
+
+  .navbar-expand > .container-fluid > .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-expand > .container-fluid > .collapse.show {
+    display: block !important;
+  }
+}
+
+#bootstrap-overrides .navbar {
+  background-color: #fef5ef;
+  padding: auto;
+  margin: auto;
+  z-index: 1;
+}
+
+#bootstrap-overrides .logo {
+  width: 18rem;
+  height: auto;
+}
+
+@media (max-width: 888px) {
+  #bootstrap-overrides .logo {
+    width: 11rem;
+    height: auto;
+  }
+}
+
+.logo-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-right: 35vw;
+}
+
+#bootstrap-overrides .nav-item {
+  color: #4e374f;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.3rem;
+  margin: 1.6rem;
+}
+
+.nav-link {
+  text-align: left !important;
+}
+
+#bootstrap-overrides .nav-icon {
+  margin: 0.2rem;
+}
+
+#bootstrap-overrides .icon {
+  width: 3.5rem;
+}
+
+#bootstrap-overrides .x {
+  width: 4.5rem;
+  margin-bottom: 1rem;
+}
+
+.navbar-area {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+/*/ ///////// Carousel //////////*/
+
+#bootstrap-overrides .carousel {
+  border-radius: 10px;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.carousel-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+}
+
+#bootstrap-overrides .carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+  filter: invert(100%);
+}
+
+#bootstrap-overrides .carousel-item {
+  height: 400px;
+  object-fit: cover;
+}
+
+#bootstrap-overrides .carousel-caption {
+  bottom: 10%;
+  color: #4e374f;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 300px;
+}
+
+#bootstrap-overrides .carousel-title-discount,
+.carousel-title-new-item,
+.carousel-title-combo-deal {
+  color: #f75835;
+  font-family: 'Suez One', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.all-new {
+  color: #4e374f;
+  font-family: 'Suez One', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 700;
+  rotate: -15deg;
+  padding-bottom: 10px;
+}
+
+.combo-button {
+  background-color: #4e374f;
+  border-radius: 10px;
+  border: none;
+  color: #fef5ef;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.3rem;
+  margin: 2rem;
+  padding: 0.5rem 1rem;
+  /* z-index: 1; */
+}
+
+/* .combo {
+  display: grid;
+  grid-template-columns: repeat(2fr, 1fr);
+  gap: 1rem;
+} */
+
+.carousel-images-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  width: 10px;
+}
+
+.carousel-text-container {
+  text-align: right;
+  max-width: 950px;
+  display: flex;
+  justify-content: right;
+}
+
+.carousel-text-combo {
+  /* max-width: 600px; */
+  text-align: right;
+  padding-left: 200px;
+}
+
+.combo-img-1 {
+  border: 1px solid #f75835;
+  border-radius: 40px;
+  padding: 5px;
+  max-width: 250px;
+  max-height: 300px;
+  object-fit: cover;
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  z-index: -1;
+  margin-left: 220px;
+}
+
+.combo-img-2 {
+  border: 1px solid #f75835;
+  position: relative;
+  border-radius: 40px;
+  padding: 5px;
+  max-width: 200px;
+  max-height: 400px;
+  object-fit: cover;
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  z-index: -2;
+  margin-left: 140px;
+  margin-top: 75px;
+}
+
+.combo-img-3 {
+  border: 1px solid #f75835;
+  border-radius: 40px;
+  padding: 5px;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  z-index: -3;
+  margin-left: 320px;
+  margin-top: 200px;
+}
+
+/*////////// Menu //////////*/
+
+#menu {
+  background-color: #fde9dd;
+  padding-bottom: 3rem;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  max-width: 10%;
+}
+
+.trolly {
+  padding-bottom: 0.5rem;
+  width: 1.4rem;
+}
+
+.icon-cart {
+  position: relative;
+  top: 10px;
+}
+
+.icon-cart span {
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+  background-color: #4e374f;
+  color: #fef5ef;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  right: -10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-title {
+  color: #f75835;
+  font-family: 'Suez One', serif;
+  font-size: 3rem;
+  margin: 0 0 2rem 0;
+  padding-top: 3rem;
+  text-align: center;
+  /* letter-spacing: 5px; */
+}
+
+.menu-category {
+  color: #f75835;
+  font-family: 'Suez One', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.food-main,
+.food-side,
+.food-dip,
+.food-drink,
+.food-item {
+  color: #4e374f;
+  font-family: 'Suez One', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.description,
+.description-drink {
+  color: #4e374f;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.price-main,
+.price-side,
+.price-dip,
+.price-drink,
+.price {
+  color: #4e374f;
+  font-family: 'Suez One', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.kcal-main,
+.kcal-side,
+.kcal-dip,
+.kcal-drink,
+.kcal {
+  color: #4e374f;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+.new-item {
+  color: #f75835;
+  font-family: 'Suez One', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 5rem;
+}
+
+.add-cart {
+  background-color: #fde9dd;
+  border-radius: 20px;
+  border-color: #4e374f;
+  color: #4e374f;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.3rem;
+  padding: 0 0.6rem;
+}
+
+.food-title-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.cartTab {
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+  width: 400px;
+  background-color: #4e374f;
+  color: #fef5ef;
+  position: fixed;
+  inset: 0 -400px 0 auto;
+  /* inset: 0 0 0 auto; */
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+/* .cartTab {
+  inset: 0 -400px 0 auto;
+} */
+
+body.showCart .cartTab {
+  inset: 0 0 0 auto;
+}
+
+body.showCart .container-menu {
+  transform: translateX(-250px);
+}
+
+.container-menu {
+  transition: transform 0.5s;
+}
+
+.cartTab h1 {
+  color: #fef5ef;
+  font-family: 'Suez One', serif;
+  font-size: 2rem;
+  /* text-align: center; */
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px;
+}
+
+.cartTab .cartBtn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab .cartBtn button {
+  background-color: #f75835;
+  color: #4e374f;
+  border: none;
+  padding: 10px;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+
+.cartTab .cartBtn .closeBtn {
+  background-color: #fef5ef;
+}
+
+.cartTab .listCart .cartItem {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.cartTab .quantity span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #fef5ef;
+  color: #4e374f;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.listCart .quantity span:nth-child(2) {
+  background-color: transparent;
+  color: #fef5ef;
+}
+
+.listCart .item:nth-child(even) {
+  background-color: #5b415c;
+}
+
+.listCart {
+  overflow: auto;
+}
+.listCart::-webkit-scrollbar {
+  width: 0px;
+}
+
+/*/ ///////// About //////////*/
+
+.about-title {
+  color: #f75835;
+  font-family: 'Suez One', serif;
+  font-size: 3rem;
+  margin: 3rem 0 2rem 0;
+  text-align: center;
+}
+
+.about-text {
+  color: #4e374f;
+  text-align: center;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+br {
+  margin: 6px 0;
+}
+
+/*/ ///////// Food Of The Day //////////*/
+
+.food-day-sections {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.food-day {
+  background-color: #fde9dd;
+  padding-bottom: 3rem;
+}
+
+.food-day-title {
+  color: #f75835;
+  font-family: 'Suez One', serif;
+  font-size: 3rem;
+  margin: 3rem 0 2rem 0;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.food-day-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.1rem;
+}
+
+.reveal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-sign {
+  color: #f75835;
+  font-family: 'Suez One', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-day .food-day-text,
+.food-day-text-bottom {
+  color: #4e374f;
+  text-align: center;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.food-day-main,
+.food-day-side,
+.food-day-dip,
+.food-day-drink {
+  color: #4e374f;
+  font-family: 'Suez One', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.food-day-price-main,
+.food-day-price-side,
+.food-day-price-dip,
+.food-day-price-drink {
+  color: #4e374f;
+  font-family: 'Suez One', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.food-day-kcal-main,
+.food-day-kcal-side,
+.food-day-kcal-dip,
+.food-day-kcal-drink {
+  color: #4e374f;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.food-day-img {
+  width: 50px;
+}
+
+.reveal-button {
+  background-color: #4e374f;
+  border-radius: 15px;
+  border: none;
+  color: #fef5ef;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.3rem;
+  margin: 0.6rem 2rem 2rem;
+  padding: 0.5rem 2rem;
+}
+
+.percent {
+  color: #f75835;
+  font-family: 'Suez One', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*/ ///////// Locations //////////*/
+
+.horizontal-scroll-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations-title {
+  color: #f75835;
+  font-family: 'Suez One', serif;
+  font-size: 3rem;
+  margin: 3rem 0 2rem 0;
+  text-align: center;
+}
+
+.horizontal-scroll-section {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 90%;
+  padding-left: 20vw;
+}
+
+.horizontal-scroll-content {
+  /* display: inline-block;
+  white-space: nowrap; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-height: 600px;
+}
+
+.map-item {
+  text-align: center;
+  display: relative;
+  margin: 0 1rem;
+  width: 350px;
+  max-width: 1600px;
+  height: 300px;
+}
+
+.bristol {
+  color: #59260b;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+.cardiff {
+  color: #395888;
+  font-family: 'Orbitron', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+.birmingham {
+  color: #447053;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+.manchester {
+  color: #5946b2;
+  font-family: 'Boldonse', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+.london {
+  color: #bf2c34;
+  font-family: 'Cinzel Decorative', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+.location-text-bristol > p {
+  color: #59260b;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.location-text-cardiff > p {
+  color: #395888;
+  font-family: 'Orbitron', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.location-text-birmingham > p {
+  color: #447053;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.location-text-manchester > p {
+  color: #5946b2;
+  font-family: 'Boldonse', system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.location-text-london > p {
+  color: #bf2c34;
+  font-family: 'Cinzel Decorative', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.scroll > p {
+  color: #4e374f;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/*////////// Footer //////////*/
+
+.footer-area {
+  display: flex;
+  justify-content: center;
+  background-color: #fde9dd;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+}
+
+.footer-content {
+  color: #4e374f;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 0.6rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1.2rem;
+}
+
+.footer p {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+hr {
+  background-color: #fde9dd;
+  border: none solid #4e374f;
+  margin: auto;
+  width: 60%;
+}
+
+.lower-footer-container {
+  background-color: #fde9dd;
+}
+
+.lower-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  padding: 2rem 0 2rem 0;
+  max-width: 1200px;
+}
+
+.tc {
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+}
+
+.rights {
+  display: flex;
+  justify-content: right;
+}
+
+.tc-text {
+  color: #4e374f;
+  font-family: 'Source Sans 3', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 0.8rem;
+}
+
+/* Fonts 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.source-sans-3-<uniquifier> {
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.suez-one-regular {
+  font-family: "Suez One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+-- Location fonts -- 
+
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.orbitron-<uniquifier> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+/* Colors
+#fef5ef
+#4e374f
+#F75835
+*/

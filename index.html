@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Suez+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Cinzel+Decorative:wght@400;700;900&family=Lobster&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BeaverBills</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io(3)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io(3)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io(3)/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  </head>
+  <body id="bootstrap-overrides" class="showCart">
+    <div class="portfolio-warning">
+      <p class="warning">This is a Portfolio Site! -- -- -- -- -- -- -- </p>
+      <p class="warning">This is a Portfolio Site! -- -- -- -- -- -- -- </p>
+      <p class="warning">This is a Portfolio Site! -- -- -- -- -- -- -- </p>
+      <p class="warning">This is a Portfolio Site! -- -- -- -- -- -- -- </p>
+      <p class="warning">This is a Portfolio Site! -- -- -- -- -- -- -- </p>
+      <p class="warning">This is a Portfolio Site! -- -- -- -- -- -- -- </p>
+      <p class="warning">This is a Portfolio Site! -- -- -- -- -- -- -- </p>
+      <p class="warning">This is a Portfolio Site! -- -- -- -- -- -- -- </p>
+      <p class="warning">This is a Portfolio Site! -- -- -- -- -- -- -- </p>
+    </div>
+    <section class="nav">
+      <nav class="navbar sticky-top navbar-expand-lg" id="nav">
+        <div class="container-fluid navbar-area me-auto mb-2 mb-lg-0">
+          <div class="logo-container">
+            <a class="nav-link active" aria-current="page" href="#"
+            ><img class="logo" src="img/beaver-bills-logo.jpg" alt="Logo"
+          /></a>
+          </div>
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#locations">Locations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    
+    <section class="carousel">
+      <div class="container mt-5">
+        <div
+          id="beaverBillsCarousel"
+          class="carousel slide"> 
+                    <!-- data-bs-ride="carousel"
+          data-bs-pause="hover" -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#beaverBillsCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#beaverBillsCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#beaverBillsCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="combo carousel-content row">
+                <div class="carousel-caption d-md-block p-3 rounded carousel-text-container">
+                  <h2 class="carousel-title-combo-deal">
+                    Combo of the Day!
+                  </h2>
+                  <p class="carousel-text-combo">
+                    Take a look at today's crazy combo, if you like what you see order in store and recieve 20% off your order!
+                  </p>
+                  <a href="#food-day"><button class="combo-button">Check It Out</button></a>
+                </div>
+                <div class="carousel-images-container">
+                  <img
+                    src="img/realism-food/burger-fries.jpg"
+                    class=" combo-img-1"
+                    alt="Combo Slide"
+                  />
+                  <img
+                    src="img/realism-food/milkshake.jpg"
+                    class="d-block w-10 combo-img-2"
+                    alt="Combo Slide"
+                  />
+                  <img
+                    src="img/realism-food/wings.jpg"
+                    class="d-block w-10 combo-img-3"
+                    alt="Combo Slide"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/beaver-bills-logo.jpg"
+                class="d-block w-10"
+                alt="New Item Slide"
+                width="10px"
+              />
+              <div class="carousel-caption d-md-block p-3 rounded">
+                <h2 class="all-new">NEW!</h2>
+                <h2 class="carousel-title-new-item">
+                  Sweet Chilli Veggie Wrap!
+                </h2>
+                <p class="carousel-text">
+                  Discover our newest addition! A delicious wrap filled with
+                  grilled veggies, fresh greens, and sweet chili sauce. Healthy,
+                  tasty, and packed with flavor!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/blank.png"
+                class="d-block w-10"
+                alt="Discounts Slide"
+                width="10px"
+              />
+              <div class="carousel-caption d-md-block p-3 rounded">
+                <h2 class="carousel-title-discount">Discounts for Everyone!</h2>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm">
+                      <h2>Blue Light Discount</h2>
+                      <p class="carousel-text">
+                        Emergency service workers can enjoy a 15% discount on
+                        all menu items anyday as our thank you for your service.
+                      </p>
+                    </div>
+                    <div class="col-sm">
+                      <h2>30% Off Tuesdays</h2>
+                      <p class="carousel-text">
+                        Save big every Tuesday! With 30% off all menu items from
+                        our juicy burgers to our creamy dips. We are even
+                        offering this deal on top of the Meal-Deal.
+                      </p>
+                    </div>
+                    <div class="col-sm">
+                      <h2>Over 60s Discount</h2>
+                      <p class="carousel-text">
+                        Seniors can enjoy a 20% discount on all menu items every
+                        day of the week!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#beaverBillsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#beaverBillsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  
+    <section id="menu" class="menu">
+      <div class="menu-header">
+        <h2 class="menu-title">Menu</h2>
+        <div class="icon-cart">
+          <a class="na v-link" href="#cart"><img class="trolly" src="img/shopping-cart-3.png" alt=""></a>
+          <span>0</span>
+        </div>
+      </div>
+      <div class="container container-menu">
+        <div class="row">
+          <div class="col-6">
+            <h2 class="menu-category">Wings</h2>
+            <ul class="wing-items">
+              <div class="item">
+                <li id="11">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Buffalo Bill's Wings</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Crispy wings tossed in fiery buffalo sauce, served with ranch or blue cheese dip.
+                  </p>
+                  <p class="price-main price">£6.99 (6 pcs)</p>
+                  <p class="kcal-main kcal">450 kcal (6 pcs)</p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="12">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Smoky Maple Glazed Wings</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Sweet and smoky wings coated in our maple BBQ glaze. Finger-licking good!
+                  </p>
+                  <p class="price-main price">£7.49 (6 pcs)</p>
+                  <p class="kcal-main kcal">500 kcal (6 pcs)</p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="13">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Garlic Parmesan Wings</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Wings smothered in a buttery garlic sauce and topped with grated parmesan.
+                  </p>
+                  <p class="price-main price">£7.49 (6 pcs)</p>
+                  <p class="kcal-main kcal">520 kcal (6 pcs)</p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="14">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Maple Sriracha Inferno Wings</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    A fiery mix of sweet maple syrup and sriracha heat. Guaranteed to leave a spicy kick!
+                  </p>
+                  <p class="price-main price">£7.49 (6 pcs)</p>
+                  <p class="kcal-main kcal">480 kcal (6 pcs)</p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="15">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Campfire Honey Mustard Wings</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Crispy wings coated in sweet honey mustard glaze with a smoky twist.
+                  </p>
+                  <p class="price-main price">£7.49 (6 pcs)</p>
+                  <p class="kcal-main kcal">450 kcal (6 pcs)</p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="16">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Beaver Spice Dry Rub Wings</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Bold and smoky dry rub packed with paprika, garlic, and secret spices.
+                  </p>
+                  <p class="price-main price">£6.99 (6 pcs)</p>
+                  <p class="kcal-main kcal">420 kcal (6 pcs)</p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="17">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Pineapple Teriyaki Wings</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Sweet pineapple teriyaki glaze with a tropical twist.
+                  </p>
+                  <p class="price-main price">£7.49 (6 pcs)</p>
+                  <p class="kcal-main kcal">470 kcal (6 pcs)</p>
+                </li>
+              </div>
+            </ul>
+            <h2 class="menu-category">Wraps</h2>
+            <ul class="wrap-items">
+              <div class="item">
+                <li id="21">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Buffalo Ranch Wrap</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Crispy chicken, lettuce, tomato, buffalo sauce, and ranch dressing wrapped in a soft tortilla.
+                  </p>
+                  <p class="price-main price">£7.49 | <span class="kcal-main kcal">700 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="22">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Maple BBQ Chicken Wrap</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Grilled chicken, lettuce, shredded cheese, and maple BBQ sauce wrapped snugly.
+                  </p>
+                  <p class="price-main price">£7.99 | <span class="kcal-main kcal">750 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="23">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Spicy Beaver Wrap</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Grilled chicken, spicy beaver sauce, lettuce, and crunchy jalapeños in a soft tortilla.
+                  </p>
+                  <p class="price-main price">£7.49 | <span class="kcal-main kcal">710 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="24">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Pineapple BBQ Pork Wrap</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Slow-cooked BBQ pork, grilled pineapple, slaw, and tangy BBQ sauce.
+                  </p>
+                  <p class="price-main price">£7.99 | <span class="kcal-main kcal">780 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="25">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Rancher's Veggie Wrap</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Grilled mushrooms, zucchini, peppers, mixed greens, and ranch dressing wrapped up fresh.
+                  </p>
+                  <p class="price-main price">£6.99 | <span class="kcal-main kcal">620 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="26">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Lumberjack Steak Wrap</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Tender steak strips, sautéed onions, peppers, lettuce, and garlic mayo in a toasted tortilla.
+                  </p>
+                  <p class="price-main price">£8.99 | <span class="kcal-main kcal">800 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="27">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Sweet Chili Veggie Wrap <span class="new-item">NEW!</span></h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Grilled veggies, mixed greens, and sweet chili sauce in a whole wheat tortilla.
+                  </p>
+                  <p class="price-main price">£6.99 | <span class="kcal-main kcal">600 kcal</span></p>
+                </li>
+              </div>
+            </ul>
+            <h2 class="menu-category">Drinks | Milkshakes</h2>
+            <ul class="drinks-items">
+              <div class="item">
+                <li id="31">
+                  <div class="food-title-area">
+                    <h3 class="food-drink food-item">Soft Drinks</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description-drink">Coca-Cola, Diet Coke, Sprite, Fanta, Dr Pepper.</p>
+                  <p class="price-drink price">£1.99 (330ml Can) | <span class="kcal-drink kcal">140 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+              <li id="32">
+                <div class="food-title-area">
+                  <h3 class="food-drink food-item">Alcoholic Drinks</h3>
+                  <button class="add-cart">+</button>
+                </div>
+                <p class="description">
+                  Corona, Budweiser, Beaver Brew Lager, Maple Ale.
+                </p>
+                <p class="price-drink price">£4.99 (500ml) | <span class="kcal-drink kcal">220 kcal</span></p>
+              </li>
+              </div>
+              <div class="item">
+                <li id="33">
+                  <div class="food-title-area">
+                    <h3 class="food-drink food-item">Chocolate Beaver Shake</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Rich chocolate ice cream blended with chocolate syrup and whipped cream.
+                  </p>
+                  <p class="price-drink price">£4.49 | <span class="kcal-drink kcal">750 kcal</span></p>
+                </li>
+              </div>  
+              <div class="item">
+                <li id="34">
+                  <div class="food-title-area">
+                    <h3 class="food-drink food-item">Vanilla Lodge Shake</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Classic vanilla shake topped with whipped cream and a cherry.
+                  </p>
+                  <p class="price-drink price">£4.49 | <span class="kcal-drink kcal">700 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="35">
+                  <div class="food-title-area">
+                    <h3 class="food-drink food-item">Maple Madness Shake</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    A creamy maple-flavored shake with whipped cream and crunchy pecans.
+                  </p>
+                  <p class="price-drink price">£4.99 | <span class="kcal-drink kcal">800 kcal</span></p>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <div class="col-6">
+            <h2 class="menu-category">Burgers</h2>
+            <ul class="burger-items">
+              <div class="item">
+                <li id="41">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Lumberjack Deluxe</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    A double beef patty stacked high with cheddar cheese, crispy bacon, caramelized onions, lettuce, tomato, and our signature smoky maple BBQ sauce.
+                  </p>
+                  <p class="price-main price">£9.99 | <span class="kcal-main kcal">1,250 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="42">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Timber Trail Classic</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    A juicy beef patty with lettuce, tomato, pickles, onion, and Beaver Bill's secret sauce. A true classic!
+                  </p>
+                  <p class="price-main price">£7.99 | <span class="kcal-main kcal">850 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="43">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Maple Leaf Chicken Burger</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Crispy buttermilk chicken breast topped with creamy coleslaw, lettuce, and sweet maple aioli.
+                  </p>
+                  <p class="price-main price">£8.49 | <span class="kcal-main kcal">980 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="44">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Veggie Voyage</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    A grilled veggie patty served with avocado, grilled mushrooms, lettuce, tomato, and zesty garlic aioli.
+                  </p>
+                  <p class="price-main price">£7.49 | <span class="kcal-main kcal">720 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="45">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">The Grizzly Beast</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Triple beef patties, triple cheese, crispy bacon, onion rings, and smothered in smoky chipotle BBQ sauce. For the hungriest of hunters!
+                  </p>
+                  <p class="price-main price">£12.99 | <span class="kcal-main kcal">1,750 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="46">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Beaver's Blue Banger</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Juicy beef patty topped with tangy blue cheese, crispy lettuce, caramelized onions, and garlic mayo.
+                  </p>
+                  <p class="price-main price">£8.99 | <span class="kcal-main kcal">950 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="47">
+                  <div class="food-title-area"> 
+                    <h3 class="food-main food-item">The Maple Moose</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Sweet and savory perfection with a beef patty, maple-glazed bacon, sharp cheddar, lettuce, and sweet onion relish.
+                  </p>
+                  <p class="price-main price">£9.49 | <span class="kcal-main kcal">1,050 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="48">
+                  <div class="food-title-area">
+                    <h3 class="food-main food-item">Smoky Campfire Chicken Burger</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">
+                    Grilled chicken breast topped with smoky BBQ sauce, melted gouda, roasted red peppers, and lettuce.
+                  </p>
+                  <p class="price-main price">£8.99 | <span class="kcal-main kcal">920 kcal</span></p>
+                </li>
+              </div>
+            </ul>
+            <h2 class="menu-category">Sides</h2>
+            <ul class="side-items">
+              <div class="item">
+                <li id="51">
+                  <div class="food-title-area">
+                    <h3 class="food-side food-item">Beaver Fries</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">Classic golden fries seasoned to perfection.</p>
+                  <p class="price-side price">£2.99 | <span class="kcal-side kcal">300 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="52">
+                  <div class="food-title-area">
+                    <h3 class="food-side food-item">Poutine Perfection</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">Fries smothered in cheese curds and rich beef gravy.</p>
+                  <p class="price-side price">£4.99 | <span class="kcal-side kcal">600 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="53">
+                  <div class="food-title-area">
+                    <h3 class="food-side food-item">Onion Lodge Rings</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">Crispy beer-battered onion rings served with zesty dipping sauce.</p>
+                  <p class="price-side price">£3.99 | <span class="kcal-side">450 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="54">
+                  <div class="food-title-area">
+                    <h3 class="food-side food-item">Cheesy Beaver Bites</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">Breaded and fried gooey cheese balls.</p>
+                  <p class="price-side price">£4.49 | <span class="kcal-side kcal">500 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="55">
+                  <div class="food-title-area">
+                    <h3 class="food-side food-item">Maple Bacon Loaded Fries</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">Crispy fries loaded with cheese, bacon bits, and maple syrup drizzle.</p>
+                  <p class="price-side price">£5.99 | <span class="kcal-side kcal">680 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="56">
+                  <div class="food-title-area">
+                    <h3 class="food-side food-item">Sweet Potato Beaver Fries</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">Sweet potato fries served with cinnamon-maple dusting.</p>
+                  <p class="price-side price">£3.99 | <span class="kcal-side kcal">350 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="57">
+                  <div class="food-title-area">
+                    <h3 class="food-side food-item">Jalapeño Poppers</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">Breaded jalapeños stuffed with cream cheese and fried golden brown.</p>
+                  <p class="price-side price">£4.99 | <span class="kcal-side kcal">550 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="58">
+                  <div class="food-title-area">
+                    <h3 class="food-side food-item">Beaver Lodge Mac Bites</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">Creamy mac and cheese balls, breaded and fried until crispy.</p>
+                  <p class="price-side price">£5.49 | <span class="kcal-side kcal">600 kcal</span></p>
+                </li>
+              </div>
+            </ul>
+            <h2 class="menu-category">Dips</h2>
+            <ul class="dip-items">
+              <div class="item">
+                <li id="61">
+                  <div class="food-title-area">
+                    <h3 class="food-dip food-item">Maple Chipotle Kick</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">Sweet, smoky, and spicy with a kick of chipotle peppers.</p>
+                  <p class="price-dip price">£1.49 | <span class="kcal-dip kcal">120 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="62">
+                  <div class="food-title-area">
+                    <h3 class="food-dip food-item">Garlic Maple Aioli</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">Creamy aioli with a hint of roasted garlic and maple.</p>
+                  <p class="price-dip price">£1.49 | <span class="kcal-dip kcal">150 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="63">
+                  <div class="food-title-area">
+                    <h3 class="food-dip food-item">Cranberry BBQ Bliss</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">A unique twist with tangy cranberry and smoky BBQ flavors.</p>
+                  <p class="price-dip price">£1.49 | <span class="kcal-dip kcal">110 kcal</span></p>
+                </li>
+              </div>
+              <div class="item">
+                <li id="64">
+                  <div class="food-title-area">
+                    <h3 class="food-dip food-item">Beaver Inferno Sauce</h3>
+                    <button class="add-cart">+</button>
+                  </div>
+                  <p class="description">For the brave! Extra spicy chili sauce with a touch of sweetness.</p>
+                  <p class="price-dip price">£1.49 | <span class="kcal-dip kcal">100 kcal</span></p>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+        </div>
+        <div class="cartBtn">
+          <button class="closeBtn">CLOSE</button>
+          <button class="checkOut">CHECK OUT</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+            <h2 class="about-title">About Beaver Bill's</h2>
+            <p class="about-text">
+              Welcome to Beaver Bill's Burger Place, where bold flavors meet hearty portions! <br/> Founded in 2018 in the heart of Bristol by our fearless foodie and burger enthusiast Bill Dawson, we set out on a mission to redefine comfort food.
+              Bill's dream was simple: craft a menu full of quirky, delicious dishes that bring people together and celebrate indulgence with a playful twist. <br/>
+              From our signature Grizzly Beast Burger to our unique Sweet Chilli Veggie Wrap, every item is made with fresh ingredients, bold flavors, and a little sprinkle of creativity. <br/>
+              Since opening our first location, we've grown to four bustling restaurants across Bristol, Cardiff, Birmingham Manchester, and London, with big plans to expand even further. Whether you're dining in, taking away, or ordering delivery, you can always count on us for a warm welcome, 
+              great food, and an experience that leaves you coming back for more. <br/>
+              Our mission is clear: to serve up mouthwatering meals, create memories, and make sure every bite brings joy to your day. So, grab your friends, your family, or even fly solo—we're here to make your mealtime legendary. <br/>
+              Thank you for being part of the Beaver Bill's family! Stay tuned, because we've got exciting new locations and menu items on the horizon.
+            </p>
+    </section>
+    
+    <section id="food-day" class="food-day">
+      <div class="container">
+        <h2 class="food-day-title">Combo of the Day</h2>
+        <div>
+          <p class="food-day-text">
+            Each day we offer a special combo meal that's perfect for a quick lunch or a hearty dinner. Tap on the Reveal button to see what's todays combo, order in store and recieve <span class="percent">20%</span> off your purchase! 
+          </p>
+        </div>
+        <div class="food-day-sections">
+          <div class="food-day-item">
+            <h3 class="food-day-main">Main</h3>
+            <p class="food-day-price-main">Price | <span class="food-day-kcal-main">kcal</span></p>
+          </div>
+          <div class="food-day-item">
+            <p class="plus-sign">+</p>
+          </div>
+          <div class="food-day-item">
+            <h3 class="food-day-side">Side</h3>
+            <p class="food-day-price-side">Price | <span class="food-day-kcal-side">kcal</span></p>
+          </div>
+          <div class="food-day-item">
+            <p class="plus-sign">+</p>
+          </div>
+          <div class=" food-day-item">
+            <h3 class="food-day-dip">Dip</h3>
+            <p class="food-day-price-dip">Price | <span class="food-day-kcal-dip">kcal</span></p>
+          </div>
+          <div class="food-day-item">
+            <p class="plus-sign">+</p>
+          </div>
+          <div class="food-day-item">
+            <h3 class="food-day-drink">Drink</h3>
+            <p class="food-day-price-drink">Price | <span class="food-day-kcal-drink">kcal</span></p>
+          </div>
+        </div>
+        <div class="reveal">
+          <button class="reveal-button">Reveal Todays Combo!</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="locations" class="">
+      <h2 class="locations-title">Our Locations</h2>
+      <div class="container horizontal-scroll-section">
+        <div class="horizontal-scroll-content">
+          <div class="map-item">
+            <h2 class="bristol">Bristol</h2>
+            <div class="location-text-bristol">            
+              <p>23 Victoria Street</p>
+              <p>BS16 5JP</p>
+              <p>tel: 43009 120934</p>
+            </div>
+          </div>
+          <div class="map-item">
+            <h2 class="cardiff">Cardiff</h2>
+            <div class="location-text-cardiff">
+              <p>5 Guildhall Place</p>
+              <p>CF10 1EB</p>
+              <p>tel: 80057 302011</p>
+            </div>
+          </div>
+          <div class="map-item">
+            <h2 class="birmingham">Birmingham</h2>
+            <div class="location-text-birmingham">
+              <p>87 High Street</p>
+              <p>B46 3AG</p>
+              <p>tel: 23301 980700</p>
+            </div>
+          </div>
+          <div class="map-item">
+            <h2 class="manchester">Manchester</h2>
+            <div class="location-text-manchester">
+              <p>91 Charlotte Street</p>
+              <p>M2 3HZ</p>
+              <p>tel: 56043 110238</p>
+            </div>
+          </div>
+          <div class="map-item">
+            <h2 class="london">London</h2>
+            <div class="location-text-london">
+              <p>33 Wellington Street</p>
+              <p>WC2E 7BD</p>
+              <p>tel: 11023 796959</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="scroll">
+        <p>SCROLL</p>
+      </div> -->
+    </section>
+
+    <section class="footer footer-area">
+      <div class="container footer-content">
+        <div class="about-us">
+          <ul>
+            <h3>About</h3>
+            <li><p>History</p></li>
+            <li><p>Leadership</p></li>
+            <li><p>Values and Respect</p></li>
+          </ul>
+        </div>
+        <div class="our-food">
+          <ul>
+            <h3>Our Food</h3>
+            <li><p>Menu</p></li>
+            <li><p>Our Food and Sourcing</p></li>
+            <li><p>Our Plan for Change</p></li>
+            <li><p>Allergen info</p></li>
+          </ul>
+        </div>
+        <div class="careers">
+          <ul>
+            <h3>Careers</h3>
+            <li><p>Opportunities</p></li>
+            <li><p>Why work here</p></li>
+            <li><p>What we offer</p></li>
+            <li><p>Careens FAQs</p></li>
+          </ul>
+        </div>
+        <div class="franchising">
+          <ul>
+            <h3>Franchising</h3>
+            <li><p>The Financials</p></li>
+            <li><p>Our Franchisees</p></li>
+            <li><p>Your Application</p></li>
+            <li><p>Your Restaurant</p></li>
+            <li><p>New Sites</p></li>
+          </ul>
+        </div>
+        <div class="help">
+          <ul>
+            <h3>Help</h3>
+            <li><p>FAQ</p></li>
+            <li><p>Customer Service</p></li>
+            <li><p>Locate</p></li>
+            <li><p>Help</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="lower-footer-container">
+      <hr>
+      <div class="lower-footer">
+        <div class="tc">
+          <div><p class="tc-text">Terms & Conditions</p></div>
+          <div><p class="tc-text">Privacy Statement</p></div>
+          <div><p class="tc-text">Cookie Policy</p></div>
+          <div><p class="tc-text">Cookie Settings</p></div>
+        </div>
+        <div class="rights">
+          <p class="tc-text">© 2025 Beaver Bills All Rights Reserved.</p>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- 
+ <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+   <li class="nav-icon">
+     <a class="nav-link" href="#"
+       ><img
+        class="icon tiktok"
+         src="img/tiktok-logo-bg.png"
+         alt="Tiktok"
+     /></a>
+   </li>
+   <li class="nav-icon">
+    <a class="nav-link" href="#"
+       ><img class="icon x" src="img/x-logo-bg.png" alt="Tiktok"
+     /></a>
+   </li>
+   <li class="nav-icon">
+     <a class="nav-link" href="#"
+       ><img
+         class="icon instagram"
+        src="img/instagram-logo-bg.png"
+        alt="Tiktok"
+    /></a>
+   </li>
+ </ul>
+ -->
